@@ -1,7 +1,27 @@
-# Repositorio para evaluación de cursos
+# Configuración en MacOS y Linux
 
-Para los notebooks que tienen solución en los comentarios ejecute
+Ejecute los siguientes comandos en el terminal:
 
-```python
-python3 grader.py
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+source setup.sh
+```
+
+# Configuración en Windows
+
+Ejecute los siguientes comandos en el terminal:
+
+```bash
+python3 -m venv .venv
+.venv\Scripts\activate
+setup
+```
+
+# Ejecución de pruebas
+
+Ejecute el siguiente comando en el terminal:
+
+```bash
+pytest
 ```
